@@ -1,315 +1,474 @@
 <div align="center">
 
+# `siddhivinayak-ai`
+
 ```text
 ███████╗██╗██████╗ ██████╗ ██╗  ██╗██╗██╗   ██╗██╗███╗   ██╗ █████╗ ██╗   ██╗ █████╗ ██╗  ██╗
 ██╔════╝██║██╔══██╗██╔══██╗██║  ██║██║██║   ██║██║████╗  ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██║ ██╔╝
 ███████╗██║██║  ██║██║  ██║███████║██║██║   ██║██║██╔██╗ ██║███████║ ╚████╔╝ ███████║█████╔╝
 ╚════██║██║██║  ██║██║  ██║██╔══██║██║╚██╗ ██╔╝██║██║╚██╗██║██╔══██║  ╚██╔╝  ██╔══██║██╔═██╗
 ███████║██║██████╔╝██████╔╝██║  ██║██║ ╚████╔╝ ██║██║ ╚████║██║  ██║   ██║   ██║  ██║██║  ██╗
-╚══════╝╚═╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
+╚══════╝╚═╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝  ╚═╝
 ```
 
-### `> SYSTEM ONLINE`
+### `// AI × SYSTEMS × ENGINEERING`
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=800&color=00FF9C&center=true&vCenter=true&width=700&lines=building+intelligent+systems;AI+%2F+ML+%2F+BACKEND+%2F+SYSTEMS;turning+problems+into+software;experimenting+with+agents+%26+LLMs;always+shipping+something" />
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2200&pause=700&color=00FF9C&center=true&vCenter=true&width=720&lines=initializing+SIDDHIVINAYAK_AI...;loading+intelligence+layer...;building+AI+systems...;designing+agentic+workflows...;shipping+real+software...;SYSTEM+ONLINE+%2F%2F+BUILD+MODE" />
+
+<br>
+
+`[ AI ]` `[ ML ]` `[ LLMs ]` `[ RAG ]` `[ BACKEND ]` `[ SYSTEMS ]`
 
 </div>
 
 ---
 
+## `01 // SYSTEM`
+
+```text
+┌──────────────────────────────────────────────────────────────────────┐
+│                                                                      │
+│   USER        siddhivinayak-ai                                      │
+│   MODE        BUILD                                                 │
+│   STATE       ONLINE                                                │
+│                                                                      │
+│   CORE        Artificial Intelligence                               │
+│               Machine Learning                                      │
+│               Backend Systems                                       │
+│               Intelligent Automation                                │
+│                                                                      │
+│   PHILOSOPHY  BUILD → BREAK → LEARN → SHIP                         │
+│                                                                      │
+└──────────────────────────────────────────────────────────────────────┘
+```
+
+I build **intelligent software systems** around AI, data and automation.
+
+My interests sit where these systems overlap:
+
+```text
+                 ┌─────────────────┐
+                 │   INTELLIGENCE  │
+                 └────────┬────────┘
+                          │
+            ┌─────────────┼─────────────┐
+            ▼             ▼             ▼
+        ┌───────┐     ┌───────┐     ┌──────────┐
+        │  AI   │     │ DATA  │     │ SOFTWARE │
+        └───┬───┘     └───┬───┘     └────┬─────┘
+            │             │              │
+            └─────────────┼──────────────┘
+                          ▼
+                 ┌─────────────────┐
+                 │  REAL SYSTEMS   │
+                 └─────────────────┘
+```
+
+---
+
+# `02 // ARCHITECTURE`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "secondaryColor": "#080d0b",
+    "tertiaryColor": "#020403",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+flowchart TB
+
+    A["PROBLEM"] --> B["DATA"]
+    B --> C["INTELLIGENCE LAYER"]
+
+    C --> D["RAG"]
+    C --> E["LLM"]
+    C --> F["AGENTS"]
+    C --> G["ML MODELS"]
+
+    D --> H["REASONING"]
+    E --> H
+    F --> H
+    G --> H
+
+    H --> I["BACKEND"]
+    I --> J["API"]
+    J --> K["PRODUCT"]
+
+    K --> L["REAL-WORLD IMPACT"]
+
+    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style H fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style I fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style J fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style K fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style L fill:#050505,stroke:#00ff9c,color:#00ff9c
+```
+
+---
+
+# `03 // CURRENT OPERATIONS`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+flowchart LR
+
+    A["LEARN"] --> B["EXPERIMENT"]
+    B --> C["BUILD"]
+    C --> D["TEST"]
+    D --> E["SHIP"]
+    E --> F["OBSERVE"]
+    F --> A
+
+    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
+```
+
+```text
+BUILD STATUS
+
+████████████████████████████████████████  100%
+
+learning        [████████████████████]  CONTINUOUS
+building        [████████████████████]  ACTIVE
+experimenting   [██████████████████░░]  ACTIVE
+shipping        [██████████████████░░]  ACTIVE
+```
+
+---
+
+# `04 // PROJECTS`
+
+## `PLACI`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+flowchart LR
+
+    A["CARGO DATA"] --> B["PROCESSING"]
+    B --> C["INTELLIGENCE"]
+    C --> D["DECISION"]
+    D --> E["LOGISTICS"]
+
+    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
+```
+
+`AI + DATA + BACKEND`
+
+---
+
+## `LAYOUT-AWARE RAG`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+flowchart LR
+
+    A["PDF"] --> B["LAYOUT"]
+    B --> C["TEXT + BLOCKS"]
+    C --> D["EMBEDDINGS"]
+    D --> E["VECTOR STORE"]
+    E --> F["RETRIEVAL"]
+    F --> G["CONTEXT"]
+    G --> H["LLM"]
+
+    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style H fill:#050505,stroke:#00ff9c,color:#00ff9c
+```
+
+---
+
+## `RFP INTELLIGENCE`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+flowchart TD
+
+    A["RFP"] --> B["PARSER"]
+    B --> C["CHUNKER"]
+    C --> D["EMBEDDER"]
+    D --> E["VECTOR SEARCH"]
+    E --> F["RETRIEVER"]
+    F --> G["AGENT"]
+    G --> H["RESPONSE"]
+
+    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style H fill:#050505,stroke:#00ff9c,color:#00ff9c
+```
+
+---
+
+# `05 // TECHNOLOGY`
+
+```text
+┌─────────────────────────────────────────────────────────────┐
+│                                                             │
+│  LANGUAGE                                                   │
+│  ├── Python                                                 │
+│  ├── SQL                                                    │
+│  ├── C++                                                    │
+│  └── JavaScript                                             │
+│                                                             │
+│  AI / ML                                                    │
+│  ├── PyTorch                                                │
+│  ├── TensorFlow                                              │
+│  ├── Scikit-learn                                            │
+│  ├── Hugging Face                                            │
+│  ├── Sentence Transformers                                   │
+│  ├── Pandas / NumPy                                          │
+│  └── ML Pipelines                                            │
+│                                                             │
+│  LLM SYSTEMS                                                │
+│  ├── LangChain                                               │
+│  ├── LangGraph                                               │
+│  ├── RAG                                                      │
+│  ├── Vector Search                                            │
+│  ├── FAISS                                                    │
+│  ├── ChromaDB                                                 │
+│  └── Ollama                                                   │
+│                                                             │
+│  BACKEND                                                     │
+│  ├── FastAPI                                                  │
+│  ├── PostgreSQL                                               │
+│  ├── MongoDB                                                  │
+│  ├── SQLite                                                   │
+│  └── REST APIs                                                │
+│                                                             │
+│  SYSTEMS                                                      │
+│  ├── Git                                                      │
+│  ├── Docker                                                   │
+│  ├── Linux                                                    │
+│  └── Cloud Deployment                                         │
+│                                                             │
+└─────────────────────────────────────────────────────────────┘
+```
+
+---
+
+# `06 // SYSTEM MAP`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+mindmap
+  root((SIDDHIVINAYAK))
+    AI
+      Machine Learning
+      Deep Learning
+      LLMs
+      Agents
+      RAG
+    Data
+      SQL
+      Vector Search
+      Embeddings
+      Knowledge Graphs
+    Backend
+      Python
+      FastAPI
+      PostgreSQL
+      APIs
+    Systems
+      Architecture
+      Automation
+      Infrastructure
+    Industry
+      Manufacturing
+      Digital Twins
+      Industrial Intelligence
+```
+
+---
+
+# `07 // GITHUB TELEMETRY`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=siddhivinayak-ai&show_icons=true&hide_border=true&theme=transparent&bg_color=00000000&title_color=00ff9c&text_color=8b949e&icon_color=00ff9c" height="175">
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhivinayak-ai&layout=compact&hide_border=true&theme=transparent&bg_color=00000000&title_color=00ff9c&text_color=8b949e" height="175">
+
+</div>
+
+---
+
+# `08 // ACTIVITY`
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=siddhivinayak-ai&theme=dark&hide_border=true&background=00000000&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c&sideLabels=00ff9c" width="700">
+
+</div>
+
+---
+
+# `09 // CONTRIBUTION MATRIX`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/siddhivinayak-ai/siddhivinayak-ai/output/github-contribution-grid-snake-dark.svg" width="900">
+
+</div>
+
+---
+
+# `10 // CURRENTLY.EXPLORING`
+
+```mermaid
+%%{init: {
+  "theme": "dark",
+  "themeVariables": {
+    "primaryColor": "#050505",
+    "primaryTextColor": "#00ff9c",
+    "primaryBorderColor": "#00ff9c",
+    "lineColor": "#00ff9c",
+    "fontFamily": "JetBrains Mono"
+  }
+}}%%
+
+flowchart LR
+
+    A["AGENTIC AI"] --> B["LLM SYSTEMS"]
+    B --> C["ADVANCED RAG"]
+    C --> D["KNOWLEDGE GRAPHS"]
+    D --> E["AI INFRASTRUCTURE"]
+    E --> F["SYSTEM DESIGN"]
+    F --> G["DIGITAL TWINS"]
+
+    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
+    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
+```
+
+---
+
+# `11 // PRINCIPLES`
+
+```text
+01  BUILD > TALK
+
+02  PROBLEM > TECHNOLOGY
+
+03  SIMPLE > COMPLEX
+
+04  SYSTEM > DEMO
+
+05  INTELLIGENCE > AUTOMATION
+
+06  SHIP → OBSERVE → IMPROVE → REPEAT
+```
+
+---
+
+# `12 // TERMINAL`
+
 ```text
 ┌──────────────────────────────────────────────────────────────┐
-│  IDENTITY                                                    │
-├──────────────────────────────────────────────────────────────┤
 │                                                              │
-│  user        : siddhivinayak-ai                              │
-│  mode        : BUILD                                         │
-│  focus       : AI / ML / SOFTWARE / SYSTEMS                 │
-│  status      : ONLINE                                        │
+│  siddhivinayak@github:~$ ./build                             │
+│                                                              │
+│  [✓] loading intelligence layer                             │
+│  [✓] initializing models                                    │
+│  [✓] connecting data layer                                  │
+│  [✓] initializing agents                                    │
+│  [✓] compiling ideas                                        │
+│  [✓] deploying experiments                                  │
+│                                                              │
+│  STATUS: OPERATIONAL                                        │
+│                                                              │
+│  siddhivinayak@github:~$ _                                   │
 │                                                              │
 └──────────────────────────────────────────────────────────────┘
 ```
 
-## `$ whoami`
-
-I build software systems around **AI, data and intelligent automation**.
-
-Most of my work revolves around:
-
-```text
-AI Engineering
-├── LLM Applications
-├── Retrieval Augmented Generation
-├── Agentic Systems
-├── Semantic Search
-├── Embeddings
-└── Document Intelligence
-
-Software Systems
-├── Python
-├── FastAPI
-├── PostgreSQL
-├── MongoDB
-├── APIs
-└── Distributed Workflows
-
-Exploration
-├── AI Agents
-├── Knowledge Graphs
-├── Digital Twins
-├── Industrial Intelligence
-└── Intelligent Automation
-```
-
----
-
-## `$ cat /current_state`
-
-```text
-[████████████████████████████████] 100%
-
-learning       → continuously
-building       → always
-experimenting  → aggressively
-shipping       → frequently
-sleeping       → questionable
-```
-
----
-
-## `$ ls ./projects`
-
-### `01 // PLACI`
-
-> Intelligent logistics & cargo information system.
-
-```text
-problem        → fragmented logistics information
-approach       → intelligent data processing
-architecture   → AI + backend + data
-result         → hackathon winning system
-```
-
-### `02 // Layout-Aware RAG`
-
-> Retrieval system designed to preserve document structure and layout.
-
-```text
-PDF
- ↓
-layout extraction
- ↓
-semantic processing
- ↓
-embeddings
- ↓
-vector retrieval
- ↓
-context-aware generation
-```
-
-### `03 // RFP Intelligence`
-
-> AI system for understanding complex RFP documents and generating contextual responses.
-
-```text
-RFP
- ↓
-document parsing
- ↓
-chunking
- ↓
-embedding
- ↓
-retrieval
- ↓
-agentic reasoning
- ↓
-response
-```
-
-### `04 // ForgeAI`
-
-> Exploring the intersection of AI and industrial systems.
-
-```text
-DATA → INTELLIGENCE → DECISION → ACTION
-```
-
----
-
-## `$ cat ./stack`
-
-```text
-LANGUAGES
-
-Python        ████████████████████
-SQL           ██████████████████
-C++           ███████████
-JavaScript    ██████████
-
-
-AI / ML
-
-PyTorch
-TensorFlow
-Scikit-learn
-Pandas
-NumPy
-Hugging Face
-Sentence Transformers
-
-
-LLM ENGINEERING
-
-LangChain
-LangGraph
-RAG
-Vector Search
-Embeddings
-FAISS
-ChromaDB
-Ollama
-
-
-BACKEND
-
-FastAPI
-REST APIs
-PostgreSQL
-MongoDB
-SQLite
-
-
-AUTOMATION
-
-n8n
-Zoho Creator
-Zoho Flow
-Stripe
-
-
-INFRASTRUCTURE
-
-Git
-GitHub
-Docker
-Vercel
-Netlify
-Linux
-```
-
----
-
-## `$ ./terminal`
-
-```text
-┌──────────────────────────────────────────────────────────┐
-│                                                          │
-│  $ python build.py                                      │
-│                                                          │
-│  [INFO] loading models............................ OK    │
-│  [INFO] connecting database....................... OK    │
-│  [INFO] initializing agents........................ OK   │
-│  [INFO] loading knowledge base.................... OK    │
-│  [INFO] running experiments....................... OK    │
-│                                                          │
-│  > SYSTEM READY                                          │
-│                                                          │
-└──────────────────────────────────────────────────────────┘
-```
-
----
-
-# `$ git stats`
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=siddhivinayak-ai&show_icons=true&hide_border=true&theme=transparent&title_color=00ff9c&text_color=8b949e&icon_color=00ff9c&bg_color=00000000" height="170"/>
+### `// BUILD. BREAK. LEARN. SHIP.`
 
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhivinayak-ai&layout=compact&hide_border=true&theme=transparent&title_color=00ff9c&text_color=8b949e&bg_color=00000000" height="170"/>
-
-</div>
-
----
-
-# `$ activity`
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=siddhivinayak-ai&theme=dark&hide_border=true&background=00000000&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c" />
-
-</div>
-
----
-
-# `$ contribution_matrix`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/siddhivinayak-ai/siddhivinayak-ai/output/github-contribution-grid-snake-dark.svg" />
-
-</div>
-
----
-
-## `$ cat ./principles`
-
-```text
-01  build > talk
-
-02  understand the problem before choosing the technology
-
-03  simple systems scale better than complicated demos
-
-04  AI should create leverage, not just generate text
-
-05  ship → observe → improve → repeat
-```
-
----
-
-## `$ currently_exploring`
-
-```text
-[01] Agentic AI
-[02] Advanced RAG
-[03] Knowledge Graphs
-[04] LLM Systems
-[05] AI Infrastructure
-[06] System Design
-[07] Digital Twins
-[08] Industrial Intelligence
-```
-
----
-
-## `$ connect`
-
-<div align="center">
-
-<a href="https://github.com/siddhivinayak-ai">
-<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=00ff9c"/>
-</a>
-
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00ff9c"/>
-</a>
-
-</div>
-
----
-
-<div align="center">
-
-```text
-────────────────────────────────────────────────────────────
-
-              BUILDING THE FUTURE, ONE SYSTEM AT A TIME.
-
-────────────────────────────────────────────────────────────
-```
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff9c&height=80&section=footer"/>
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a12,100:00ff9c&height=100&section=footer">
 
 </div>
