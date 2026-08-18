@@ -1,278 +1,315 @@
-# 👋 Hi, I'm Siddhivinayak Waghmode
-
-### AI/ML Engineer • Backend Developer • Manufacturing Engineer
-
-> Building intelligent software systems at the intersection of **AI, data, software engineering, and manufacturing**.
-
-<p align="left">
-  <a href="https://github.com/siddhivinayak-ai">
-    <img src="https://komarev.com/ghpvc/?username=siddhivinayak-ai&label=Profile%20Views&color=0e75b6&style=flat" />
-  </a>
-  <img src="https://img.shields.io/github/followers/siddhivinayak-ai?label=Followers&style=flat" />
-</p>
-
----
-
-## 🚀 About Me
-
-I'm a **Manufacturing Engineering student and AI/ML developer** focused on building practical software systems that solve real business and engineering problems.
-
-* 🧠 Building with **Python, SQL, AI/ML & LLM systems**
-* ⚙️ Interested in **AI × Manufacturing × Industrial Intelligence**
-* 🔭 Currently working on **RAG, Agentic AI & intelligent backend systems**
-* 🏭 Hands-on exposure to **manufacturing, automotive & industrial systems**
-* 🛠️ Experienced with **FastAPI, PostgreSQL, MongoDB & modern AI stacks**
-* 🤖 Exploring **LLM Agents, LangGraph, RAG & AI-powered automation**
-* 🏆 **KaiTETHON'26 — First Prize**
-* 🎯 Goal: Build technology products that solve meaningful real-world problems
-
----
-
-## ⚡ Tech Stack
-
-### Languages
-
-<p>
-<img src="https://skillicons.dev/icons?i=python,cpp,js,sql" />
-</p>
-
-### AI / Machine Learning
-
-<p>
-<img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
-</p>
-
-`Scikit-learn` • `Pandas` • `NumPy` • `Hugging Face` • `Sentence Transformers`
-`RAG` • `LLMs` • `Embeddings` • `Vector Search` • `Agentic AI`
-
-### Backend & Databases
-
-<p>
-<img src="https://skillicons.dev/icons?i=fastapi,nodejs,postgres,mongodb,sqlite" />
-</p>
-
-`REST APIs` • `FastAPI` • `PostgreSQL` • `MongoDB` • `SQLite`
-
-### AI Engineering
-
-`LangChain` • `LangGraph` • `Ollama` • `ChromaDB` • `FAISS`
-
-### Tools & Platforms
-
-<p>
-<img src="https://skillicons.dev/icons?i=git,github,docker,vercel,netlify,linux,vscode" />
-</p>
-
-`Zoho Creator` • `Zoho CRM` • `Zoho Flow` • `Stripe` • `n8n`
-
----
-
-# 🧠 What I'm Building
-
-<table>
-<tr>
-<td width="50%">
-
-### 🤖 AI Engineering
-
-Building practical AI systems around:
-
-* RAG pipelines
-* LLM applications
-* Agentic workflows
-* Semantic search
-* Document intelligence
-* Knowledge bases
-* AI-powered automation
-
-</td>
-
-<td width="50%">
-
-### 🏭 Industrial Intelligence
-
-Exploring applications of AI in:
-
-* Manufacturing
-* Supply chains
-* Automotive
-* Industrial data
-* Digital twins
-* Process optimization
-* Engineering intelligence
-
-</td>
-</tr>
-</table>
-
----
-
-# 🚀 Featured Projects
-
-### 🧠 PLACI — Pre-Loading Advance Cargo Information
-
-**AI-powered logistics intelligence platform**
-
-Built during **KaiTETHON'26**, where our team won **First Prize**.
-
-`Python` `AI/ML` `FastAPI` `Data Engineering`
-
----
-
-### 📄 RFP Response Generator
-
-An intelligent system for understanding RFP documents and generating context-aware responses.
-
-**Core concepts:**
-
-`RAG` • `LangChain` • `LangGraph` • `Vector Search` • `Document Intelligence`
-
----
-
-### 🔍 Layout-Aware RAG
-
-A document intelligence pipeline designed to preserve the structural and visual context of documents.
-
-**Architecture includes:**
-
-`PyMuPDF` • `Layout Parsing` • `Embeddings` • `Vector Search` • `FastAPI`
-
----
-
-### 🏭 AI × Manufacturing Intelligence
-
-Exploring systems that connect manufacturing capability, suppliers, engineering data and intelligent decision-making.
-
-**Areas:**
-
-`Manufacturing Intelligence` • `Supplier Intelligence` • `Digital Twins` • `AI`
-
----
-
-# 🏆 Achievements
-
-🏆 **1st Prize — KaiTETHON'26**
-
-🥇 Built an AI-powered logistics solution during a **48-hour hackathon**
-
-🏭 Industry exposure across **automotive & manufacturing environments**
-
-💻 Building production-oriented AI and backend systems
-
----
-
-# 💼 Experience
-
-### Founder's Office / Business Automation Intern
-
-Worked on solving business problems through automation and low-code development.
-
-**Built / worked with:**
-
-`Zoho Creator` • `Zoho CRM` • `Zoho Flow` • `SalesIQ` • `Zoho Forms` • `Stripe`
-
-Worked on workflows involving:
-
-**Registration → Forms → Business Logic → Payment → CRM → WhatsApp / Email Communication**
-
----
-
-### Manufacturing / Automotive Internships
-
-Hands-on exposure to industrial manufacturing environments, production processes and engineering systems.
-
-Worked around:
-
-`Industrial Automation` • `Sensors` • `Actuators` • `Maintenance` • `Production Systems`
-
----
-
-# 📊 GitHub Statistics
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=siddhivinayak-ai&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" height="180"/>
-  <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhivinayak-ai&layout=compact&theme=tokyonight&hide_border=true" height="180"/>
-</p>
-
----
-
-# 🔥 GitHub Streak
-
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=siddhivinayak-ai&theme=tokyonight&hide_border=true" />
-</p>
-
----
-
-# 🐍 Contribution Graph
-
-<p align="center">
-  <img src="https://raw.githubusercontent.com/siddhivinayak-ai/siddhivinayak-ai/output/github-contribution-grid-snake.svg" />
-</p>
-
----
-
-# 🧩 Current Learning
+<div align="center">
 
 ```text
-Python
- ├── Advanced Backend Development
- ├── FastAPI
- └── Data Engineering
+███████╗██╗██████╗ ██████╗ ██╗  ██╗██╗██╗   ██╗██╗███╗   ██╗ █████╗ ██╗   ██╗ █████╗ ██╗  ██╗
+██╔════╝██║██╔══██╗██╔══██╗██║  ██║██║██║   ██║██║████╗  ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██║ ██╔╝
+███████╗██║██║  ██║██║  ██║███████║██║██║   ██║██║██╔██╗ ██║███████║ ╚████╔╝ ███████║█████╔╝
+╚════██║██║██║  ██║██║  ██║██╔══██║██║╚██╗ ██╔╝██║██║╚██╗██║██╔══██║  ╚██╔╝  ██╔══██║██╔═██╗
+███████║██║██████╔╝██████╔╝██║  ██║██║ ╚████╔╝ ██║██║ ╚████║██║  ██║   ██║   ██║  ██║██║  ██╗
+╚══════╝╚═╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝╚═╝  ╚═╝
+```
 
-AI / ML
- ├── Deep Learning
- ├── LLM Engineering
- ├── RAG
- ├── Agentic AI
- └── Knowledge Graphs
+### `> SYSTEM ONLINE`
 
-Systems
- ├── System Design
- ├── PostgreSQL
- ├── Distributed Systems
- └── Cloud Deployment
+<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&size=18&duration=2500&pause=800&color=00FF9C&center=true&vCenter=true&width=700&lines=building+intelligent+systems;AI+%2F+ML+%2F+BACKEND+%2F+SYSTEMS;turning+problems+into+software;experimenting+with+agents+%26+LLMs;always+shipping+something" />
 
-Industry
- ├── Manufacturing Systems
- ├── Supply Chain Intelligence
- └── Digital Twins
+</div>
+
+---
+
+```text
+┌──────────────────────────────────────────────────────────────┐
+│  IDENTITY                                                    │
+├──────────────────────────────────────────────────────────────┤
+│                                                              │
+│  user        : siddhivinayak-ai                              │
+│  mode        : BUILD                                         │
+│  focus       : AI / ML / SOFTWARE / SYSTEMS                 │
+│  status      : ONLINE                                        │
+│                                                              │
+└──────────────────────────────────────────────────────────────┘
+```
+
+## `$ whoami`
+
+I build software systems around **AI, data and intelligent automation**.
+
+Most of my work revolves around:
+
+```text
+AI Engineering
+├── LLM Applications
+├── Retrieval Augmented Generation
+├── Agentic Systems
+├── Semantic Search
+├── Embeddings
+└── Document Intelligence
+
+Software Systems
+├── Python
+├── FastAPI
+├── PostgreSQL
+├── MongoDB
+├── APIs
+└── Distributed Workflows
+
+Exploration
+├── AI Agents
+├── Knowledge Graphs
+├── Digital Twins
+├── Industrial Intelligence
+└── Intelligent Automation
 ```
 
 ---
 
-# 💡 My Engineering Philosophy
+## `$ cat /current_state`
 
-> **Don't build AI because it's trendy. Build systems where intelligence creates measurable value.**
+```text
+[████████████████████████████████] 100%
 
-I enjoy taking a problem from:
-
-**Problem → Data → Architecture → Model → API → Product**
-
-rather than stopping at a notebook or prototype.
+learning       → continuously
+building       → always
+experimenting  → aggressively
+shipping       → frequently
+sleeping       → questionable
+```
 
 ---
 
-# 🤝 Let's Connect
+## `$ ls ./projects`
 
-<p align="left">
+### `01 // PLACI`
 
-<a href="https://www.linkedin.com/">
-<img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white"/>
-</a>
+> Intelligent logistics & cargo information system.
+
+```text
+problem        → fragmented logistics information
+approach       → intelligent data processing
+architecture   → AI + backend + data
+result         → hackathon winning system
+```
+
+### `02 // Layout-Aware RAG`
+
+> Retrieval system designed to preserve document structure and layout.
+
+```text
+PDF
+ ↓
+layout extraction
+ ↓
+semantic processing
+ ↓
+embeddings
+ ↓
+vector retrieval
+ ↓
+context-aware generation
+```
+
+### `03 // RFP Intelligence`
+
+> AI system for understanding complex RFP documents and generating contextual responses.
+
+```text
+RFP
+ ↓
+document parsing
+ ↓
+chunking
+ ↓
+embedding
+ ↓
+retrieval
+ ↓
+agentic reasoning
+ ↓
+response
+```
+
+### `04 // ForgeAI`
+
+> Exploring the intersection of AI and industrial systems.
+
+```text
+DATA → INTELLIGENCE → DECISION → ACTION
+```
+
+---
+
+## `$ cat ./stack`
+
+```text
+LANGUAGES
+
+Python        ████████████████████
+SQL           ██████████████████
+C++           ███████████
+JavaScript    ██████████
+
+
+AI / ML
+
+PyTorch
+TensorFlow
+Scikit-learn
+Pandas
+NumPy
+Hugging Face
+Sentence Transformers
+
+
+LLM ENGINEERING
+
+LangChain
+LangGraph
+RAG
+Vector Search
+Embeddings
+FAISS
+ChromaDB
+Ollama
+
+
+BACKEND
+
+FastAPI
+REST APIs
+PostgreSQL
+MongoDB
+SQLite
+
+
+AUTOMATION
+
+n8n
+Zoho Creator
+Zoho Flow
+Stripe
+
+
+INFRASTRUCTURE
+
+Git
+GitHub
+Docker
+Vercel
+Netlify
+Linux
+```
+
+---
+
+## `$ ./terminal`
+
+```text
+┌──────────────────────────────────────────────────────────┐
+│                                                          │
+│  $ python build.py                                      │
+│                                                          │
+│  [INFO] loading models............................ OK    │
+│  [INFO] connecting database....................... OK    │
+│  [INFO] initializing agents........................ OK   │
+│  [INFO] loading knowledge base.................... OK    │
+│  [INFO] running experiments....................... OK    │
+│                                                          │
+│  > SYSTEM READY                                          │
+│                                                          │
+└──────────────────────────────────────────────────────────┘
+```
+
+---
+
+# `$ git stats`
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=siddhivinayak-ai&show_icons=true&hide_border=true&theme=transparent&title_color=00ff9c&text_color=8b949e&icon_color=00ff9c&bg_color=00000000" height="170"/>
+
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhivinayak-ai&layout=compact&hide_border=true&theme=transparent&title_color=00ff9c&text_color=8b949e&bg_color=00000000" height="170"/>
+
+</div>
+
+---
+
+# `$ activity`
+
+<div align="center">
+
+<img src="https://streak-stats.demolab.com?user=siddhivinayak-ai&theme=dark&hide_border=true&background=00000000&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c" />
+
+</div>
+
+---
+
+# `$ contribution_matrix`
+
+<div align="center">
+
+<img src="https://raw.githubusercontent.com/siddhivinayak-ai/siddhivinayak-ai/output/github-contribution-grid-snake-dark.svg" />
+
+</div>
+
+---
+
+## `$ cat ./principles`
+
+```text
+01  build > talk
+
+02  understand the problem before choosing the technology
+
+03  simple systems scale better than complicated demos
+
+04  AI should create leverage, not just generate text
+
+05  ship → observe → improve → repeat
+```
+
+---
+
+## `$ currently_exploring`
+
+```text
+[01] Agentic AI
+[02] Advanced RAG
+[03] Knowledge Graphs
+[04] LLM Systems
+[05] AI Infrastructure
+[06] System Design
+[07] Digital Twins
+[08] Industrial Intelligence
+```
+
+---
+
+## `$ connect`
+
+<div align="center">
 
 <a href="https://github.com/siddhivinayak-ai">
-<img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white"/>
+<img src="https://img.shields.io/badge/GITHUB-000000?style=for-the-badge&logo=github&logoColor=00ff9c"/>
 </a>
 
-</p>
+<a href="https://www.linkedin.com/">
+<img src="https://img.shields.io/badge/LINKEDIN-000000?style=for-the-badge&logo=linkedin&logoColor=00ff9c"/>
+</a>
+
+</div>
 
 ---
 
-<p align="center">
-  <b>Building. Learning. Shipping. 🚀</b>
-</p>
+<div align="center">
 
-<p align="center">
-  <i>AI • Software • Engineering • Manufacturing</i>
-</p>
+```text
+────────────────────────────────────────────────────────────
+
+              BUILDING THE FUTURE, ONE SYSTEM AT A TIME.
+
+────────────────────────────────────────────────────────────
+```
+
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,100:00ff9c&height=80&section=footer"/>
+
+</div>
