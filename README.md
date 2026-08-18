@@ -28,16 +28,16 @@
 ```text
 ┌──────────────────────────────────────────────────────────────────────┐
 │                                                                      │
-│   USER        siddhivinayak-ai                                      │
-│   MODE        BUILD                                                 │
-│   STATE       ONLINE                                                │
+│   USER        siddhivinayak-ai                                       │
+│   MODE        BUILD                                                  │
+│   STATE       ONLINE                                                 │
 │                                                                      │
-│   CORE        Artificial Intelligence                               │
-│               Machine Learning                                      │
-│               Backend Systems                                       │
-│               Intelligent Automation                                │
+│   CORE        Artificial Intelligence                                │
+│               Machine Learning                                       │
+│               Backend Systems                                        │
+│               Intelligent Automation                                 │
 │                                                                      │
-│   PHILOSOPHY  BUILD → BREAK → LEARN → SHIP                         │
+│   PHILOSOPHY  BUILD → BREAK → LEARN → SHIP                           │
 │                                                                      │
 └──────────────────────────────────────────────────────────────────────┘
 ```
@@ -282,34 +282,34 @@ flowchart TD
 │                                                             │
 │  AI / ML                                                    │
 │  ├── PyTorch                                                │
-│  ├── TensorFlow                                              │
-│  ├── Scikit-learn                                            │
-│  ├── Hugging Face                                            │
-│  ├── Sentence Transformers                                   │
-│  ├── Pandas / NumPy                                          │
-│  └── ML Pipelines                                            │
+│  ├── TensorFlow                                             │
+│  ├── Scikit-learn                                           │
+│  ├── Hugging Face                                           │
+│  ├── Sentence Transformers                                  │
+│  ├── Pandas / NumPy                                         │
+│  └── ML Pipelines                                           │
 │                                                             │
 │  LLM SYSTEMS                                                │
-│  ├── LangChain                                               │
-│  ├── LangGraph                                               │
-│  ├── RAG                                                      │
-│  ├── Vector Search                                            │
-│  ├── FAISS                                                    │
-│  ├── ChromaDB                                                 │
-│  └── Ollama                                                   │
+│  ├── LangChain                                              │
+│  ├── LangGraph                                              │
+│  ├── RAG                                                    │
+│  ├── Vector Search                                          │
+│  ├── FAISS                                                  │
+│  ├── ChromaDB                                               │
+│  └── Ollama                                                 │
 │                                                             │
-│  BACKEND                                                     │
-│  ├── FastAPI                                                  │
-│  ├── PostgreSQL                                               │
-│  ├── MongoDB                                                  │
-│  ├── SQLite                                                   │
-│  └── REST APIs                                                │
+│  BACKEND                                                    │
+│  ├── FastAPI                                                │
+│  ├── PostgreSQL                                             │
+│  ├── MongoDB                                                │
+│  ├── SQLite                                                 │
+│  └── REST APIs                                              │
 │                                                             │
-│  SYSTEMS                                                      │
-│  ├── Git                                                      │
-│  ├── Docker                                                   │
-│  ├── Linux                                                    │
-│  └── Cloud Deployment                                         │
+│  SYSTEMS                                                    │
+│  ├── Git                                                    │
+│  ├── Docker                                                 │
+│  ├── Linux                                                  │
+│  └── Cloud Deployment                                       │
 │                                                             │
 └─────────────────────────────────────────────────────────────┘
 ```
@@ -451,14 +451,14 @@ flowchart LR
 │                                                              │
 │  siddhivinayak@github:~$ ./build                             │
 │                                                              │
-│  [✓] loading intelligence layer                             │
-│  [✓] initializing models                                    │
-│  [✓] connecting data layer                                  │
-│  [✓] initializing agents                                    │
-│  [✓] compiling ideas                                        │
-│  [✓] deploying experiments                                  │
-│                                                              │
-│  STATUS: OPERATIONAL                                        │
+│  [✓] loading intelligence layer                              │
+│  [✓] initializing models                                     │
+│  [✓] connecting data layer                                   │
+│  [✓] initializing agents                                     │ 
+│  [✓] compiling ideas                                         │ 
+│  [✓] deploying experiments                                   │ 
+│                                                              │ 
+│  STATUS: OPERATIONAL                                         │
 │                                                              │
 │  siddhivinayak@github:~$ _                                   │
 │                                                              │
