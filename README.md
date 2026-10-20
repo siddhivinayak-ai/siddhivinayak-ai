@@ -1,474 +1,93 @@
-<div align="center">
+# Siddhivinayak Waghmode
 
-# `siddhivinayak-ai`
+**I build AI systems for manufacturing and industrial operations.**
 
-```text
-███████╗██╗██████╗ ██████╗ ██╗  ██╗██╗██╗   ██╗██╗███╗   ██╗ █████╗ ██╗   ██╗ █████╗ ██╗  ██╗
-██╔════╝██║██╔══██╗██╔══██╗██║  ██║██║██║   ██║██║████╗  ██║██╔══██╗╚██╗ ██╔╝██╔══██╗██║ ██╔╝
-███████╗██║██║  ██║██║  ██║███████║██║██║   ██║██║██╔██╗ ██║███████║ ╚████╔╝ ███████║█████╔╝
-╚════██║██║██║  ██║██║  ██║██╔══██║██║╚██╗ ██╔╝██║██║╚██╗██║██╔══██║  ╚██╔╝  ██╔══██║██╔═██╗
-███████║██║██████╔╝██████╔╝██║  ██║██║ ╚████╔╝ ██║██║ ╚████║██║  ██║   ██║   ██║  ██║██║  ██╗
-╚══════╝╚═╝╚═════╝ ╚═════╝ ╚═╝  ╚═╝╚═╝  ╚═══╝  ╚═╝╚═╝  ╚═══╝╚═╝  ╚═╝   ╚═╝   ╚═╝  ╚═╝  ╚═╝
-```
+I'm a manufacturing engineer (BTech, Manufacturing Science & Technology, COEP Technological University, Pune) working on agentic AI, retrieval and digital twins. I understand the shop floor and the paperwork around it: tool wear, OEE, tenders, cargo compliance and procurement. I build software that handles that work.
 
-### `// AI × SYSTEMS × ENGINEERING`
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Siddhivinayak_Waghmode-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhivinayak-waghmode-641b6b241/)
+[![Email](https://img.shields.io/badge/Email-siddhivinayakwaghmode2004%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:siddhivinayakwaghmode2004@gmail.com)
 
-<img src="https://readme-typing-svg.demolab.com?font=JetBrains+Mono&weight=500&size=18&duration=2200&pause=700&color=00FF9C&center=true&vCenter=true&width=720&lines=initializing+SIDDHIVINAYAK_AI...;loading+intelligence+layer...;building+AI+systems...;designing+agentic+workflows...;shipping+real+software...;SYSTEM+ONLINE+%2F%2F+BUILD+MODE" />
-
-<br>
-
-`[ AI ]` `[ ML ]` `[ LLMs ]` `[ RAG ]` `[ BACKEND ]` `[ SYSTEMS ]`
-
-</div>
+**Open to:** co-founding in industrial AI or B2B automation, and AI/ML engineering roles (agentic systems, RAG, applied ML).
 
 ---
 
-## `01 // SYSTEM`
+## Selected work
 
-```text
-┌──────────────────────────────────────────────────────────────────────┐
-│                                                                      │
-│   USER        siddhivinayak-ai                                       │
-│   MODE        BUILD                                                  │
-│   STATE       ONLINE                                                 │
-│                                                                      │
-│   CORE        Artificial Intelligence                                │
-│               Machine Learning                                       │
-│               Backend Systems                                        │
-│               Intelligent Automation                                 │
-│                                                                      │
-│   PHILOSOPHY  BUILD → BREAK → LEARN → SHIP                           │
-│                                                                      │
-└──────────────────────────────────────────────────────────────────────┘
-```
+### [Manufacturing Copilot](https://github.com/siddhivinayak-ai/mfg-copilotv0.1)
+A reasoning engine for factories. It answers maintenance, quality, energy, safety and supply-chain questions using sensor datasets, OEM manuals and regulations.
+- GraphRAG over a 7-domain knowledge graph (~10,000 nodes, ~21,000 edges) built from NASA C-MAPSS, CWRU bearings, SECOM and others, plus ABB, KUKA, Siemens and UR robot manuals
+- An orchestrator sends each question to one of 6 specialist agents
+- Connects facts across domains: a vibration spike → the related OSHA hazard → the matching KUKA error code
 
-I build **intelligent software systems** around AI, data and automation.
+`Python` `GraphRAG` `Multi-agent orchestration`
 
-My interests sit where these systems overlap:
+### [SV Digital Twin Labs](https://github.com/siddhivinayak-ai/SV-DigitalTwinLabs) · *in active development*
+An open-source digital twin of a manufacturing production line.
+- A C# simulation server streams live machine state over WebSocket to a web console and a Unity 3D client
+- V1 covers one line: 11 assets, synthetic sensors, fault injection, OEE analytics and what-if scenarios
+- One shared wire contract defines the data format for the server and every client
 
-```text
-                 ┌─────────────────┐
-                 │   INTELLIGENCE  │
-                 └────────┬────────┘
-                          │
-            ┌─────────────┼─────────────┐
-            ▼             ▼             ▼
-        ┌───────┐     ┌───────┐     ┌──────────┐
-        │  AI   │     │ DATA  │     │ SOFTWARE │
-        └───┬───┘     └───┬───┘     └────┬─────┘
-            │             │              │
-            └─────────────┼──────────────┘
-                          ▼
-                 ┌─────────────────┐
-                 │  REAL SYSTEMS   │
-                 └─────────────────┘
-```
+`C#` `.NET 10` `TypeScript` `Three.js` `Unity 6`
 
----
+### [PLACI: Cargo Risk Intelligence](https://github.com/siddhivinayak-ai/placi-version-0.2)
+Screens air cargo before loading, following ICAO Annex 17, the WCO SAFE Framework and PLACI (Pre-Loading Advance Cargo Information) rules.
+- 6 agents in a LangGraph workflow: sanctions matching, cargo-description analysis, anomaly detection (Isolation Forest), historical pattern search, risk aggregation, and an explanation a regulator can read
+- Each shipment gets a risk score and a decision (clear, request information, extra screening, or do not load), with the evidence behind it
+- Tested against 10,000 synthetic historical shipments
 
-# `02 // ARCHITECTURE`
+`Python` `FastAPI` `LangGraph` `Claude` `MongoDB` `React`
 
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "secondaryColor": "#080d0b",
-    "tertiaryColor": "#020403",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
+### [BidOps: from RFP to proposal](https://github.com/siddhivinayak-ai/BidOpsv0.1)
+Turns a tender PDF into a technical proposal (.docx) and a pricing model (.xlsx).
+- Five agents: triage, solution design, commercial pricing, writer and auditor
+- The auditor sends drafts back to the writer until the proposal reaches an 85% compliance score against the RFP's requirements
+- Searches past proposals using local embeddings, so company data stays on the machine
 
-flowchart TB
+`Python` `LangGraph` `ChromaDB` `Gemini`
 
-    A["PROBLEM"] --> B["DATA"]
-    B --> C["INTELLIGENCE LAYER"]
+### [hiresprint: Agentic Hiring Intelligence](https://github.com/siddhivinayak-ai/hiresprint)
+Tests whether engineers can build *with* AI, not just code without it.
+- Candidates solve a realistic task in a sandboxed IDE that includes an AI assistant, a terminal and a test runner
+- Scores five weighted dimensions, including prompt quality and error recovery
+- Records a full session replay, plus integrity signals: tab switches, focus loss and pastes
 
-    C --> D["RAG"]
-    C --> E["LLM"]
-    C --> F["AGENTS"]
-    C --> G["ML MODELS"]
+`React` `Node.js` `PostgreSQL` `LangChain` `Gemini`
 
-    D --> H["REASONING"]
-    E --> H
-    F --> H
-    G --> H
+### Self-Maintaining APIs · *private repo, demo on request*
+An agent that stops third-party API integrations from breaking when vendors retire versions.
+- Monitors vendor deprecation notices and scans the codebase for affected calls
+- Prepares a fix for each call and runs the tests in an offline Docker sandbox before and after the patch
+- Opens a pull request for human approval and never merges on its own
 
-    H --> I["BACKEND"]
-    I --> J["API"]
-    J --> K["PRODUCT"]
-
-    K --> L["REAL-WORLD IMPACT"]
-
-    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style H fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style I fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style J fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style K fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style L fill:#050505,stroke:#00ff9c,color:#00ff9c
-```
+Demo targets: [support-desk-ai](https://github.com/siddhivinayak-ai/support-desk-ai) · [stripe-legacy-checkout](https://github.com/siddhivinayak-ai/stripe-legacy-checkout)
 
 ---
 
-# `03 // CURRENT OPERATIONS`
+## Also built
 
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
-
-flowchart LR
-
-    A["LEARN"] --> B["EXPERIMENT"]
-    B --> C["BUILD"]
-    C --> D["TEST"]
-    D --> E["SHIP"]
-    E --> F["OBSERVE"]
-    F --> A
-
-    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
-```
-
-```text
-BUILD STATUS
-
-████████████████████████████████████████  100%
-
-learning        [████████████████████]  CONTINUOUS
-building        [████████████████████]  ACTIVE
-experimenting   [██████████████████░░]  ACTIVE
-shipping        [██████████████████░░]  ACTIVE
-```
+- **[SmartScan](https://github.com/siddhivinayak-ai/sih-DevNexus2026)** (Smart India Hackathon 2026): a reinforcement-learning (PPO) scheduler that decides which RF band a receiver scans next. Evaluated against three baselines on unseen test scenarios.
+- **[Siddhivinayak](https://github.com/siddhivinayak-ai/siddhivinayak)**: a talking 3D engineering assistant. Hybrid search over your notes with page citations, plus ISO fastener and welding calculators.
+- **[BhashaBill](https://github.com/siddhivinayak-ai/BhashaBill)**: turns voice notes and bills in Hindi, Tamil or Gujarati into standard government Bills of Materials, for small businesses (MSMEs) bidding on tenders.
+- **[mill](https://github.com/siddhivinayak-ai/mill)**: tool-wear prediction on the UC Berkeley milling dataset. An LSTM beat Random Forest and XGBoost.
+- **[EcoTwin](https://github.com/siddhivinayak-ai/EcoTwin)**: an energy digital twin (solar, battery, grid, HVAC) with a live 3D view.
+- **[code-writer](https://github.com/siddhivinayak-ai/code-writer-v0.1)**: a terminal coding agent built to run within Gemini's free-tier limits.
+- **[sv-iot-telemetry-sim](https://github.com/siddhivinayak-ai/sv-iot-telemetry-sim)**: a pip package that simulates industrial sensors, with anomaly injection and MQTT streaming.
 
 ---
 
-# `04 // PROJECTS`
+## Stack
 
-## `PLACI`
+| | |
+|---|---|
+| **AI / ML** | LangGraph, LangChain, RAG and GraphRAG, ChromaDB, FAISS, scikit-learn, TensorFlow, PyTorch, Stable-Baselines3 |
+| **LLMs** | Claude, Gemini, Groq, local models via Ollama |
+| **Backend** | Python, FastAPI, Flask, Node.js, C# / .NET, MongoDB, PostgreSQL, SQLite, WebSockets, MQTT |
+| **Frontend & 3D** | React, TypeScript, Vite, Three.js / React Three Fiber, Unity, Streamlit |
 
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
+## How I work
 
-flowchart LR
+- **Problem first.** I start from the domain problem, then choose the model.
+- **Ship v0.1, then iterate.** PLACI went through three versions in public.
+- **Local and low-cost by default.** Local embeddings, swappable LLM providers, and designs that fit within free-tier limits.
 
-    A["CARGO DATA"] --> B["PROCESSING"]
-    B --> C["INTELLIGENCE"]
-    C --> D["DECISION"]
-    D --> E["LOGISTICS"]
-
-    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
-```
-
-`AI + DATA + BACKEND`
-
----
-
-## `LAYOUT-AWARE RAG`
-
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
-
-flowchart LR
-
-    A["PDF"] --> B["LAYOUT"]
-    B --> C["TEXT + BLOCKS"]
-    C --> D["EMBEDDINGS"]
-    D --> E["VECTOR STORE"]
-    E --> F["RETRIEVAL"]
-    F --> G["CONTEXT"]
-    G --> H["LLM"]
-
-    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style H fill:#050505,stroke:#00ff9c,color:#00ff9c
-```
-
----
-
-## `RFP INTELLIGENCE`
-
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
-
-flowchart TD
-
-    A["RFP"] --> B["PARSER"]
-    B --> C["CHUNKER"]
-    C --> D["EMBEDDER"]
-    D --> E["VECTOR SEARCH"]
-    E --> F["RETRIEVER"]
-    F --> G["AGENT"]
-    G --> H["RESPONSE"]
-
-    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style H fill:#050505,stroke:#00ff9c,color:#00ff9c
-```
-
----
-
-# `05 // TECHNOLOGY`
-
-```text
-┌─────────────────────────────────────────────────────────────┐
-│                                                             │
-│  LANGUAGE                                                   │
-│  ├── Python                                                 │
-│  ├── SQL                                                    │
-│  ├── C++                                                    │
-│  └── JavaScript                                             │
-│                                                             │
-│  AI / ML                                                    │
-│  ├── PyTorch                                                │
-│  ├── TensorFlow                                             │
-│  ├── Scikit-learn                                           │
-│  ├── Hugging Face                                           │
-│  ├── Sentence Transformers                                  │
-│  ├── Pandas / NumPy                                         │
-│  └── ML Pipelines                                           │
-│                                                             │
-│  LLM SYSTEMS                                                │
-│  ├── LangChain                                              │
-│  ├── LangGraph                                              │
-│  ├── RAG                                                    │
-│  ├── Vector Search                                          │
-│  ├── FAISS                                                  │
-│  ├── ChromaDB                                               │
-│  └── Ollama                                                 │
-│                                                             │
-│  BACKEND                                                    │
-│  ├── FastAPI                                                │
-│  ├── PostgreSQL                                             │
-│  ├── MongoDB                                                │
-│  ├── SQLite                                                 │
-│  └── REST APIs                                              │
-│                                                             │
-│  SYSTEMS                                                    │
-│  ├── Git                                                    │
-│  ├── Docker                                                 │
-│  ├── Linux                                                  │
-│  └── Cloud Deployment                                       │
-│                                                             │
-└─────────────────────────────────────────────────────────────┘
-```
-
----
-
-# `06 // SYSTEM MAP`
-
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
-
-mindmap
-  root((SIDDHIVINAYAK))
-    AI
-      Machine Learning
-      Deep Learning
-      LLMs
-      Agents
-      RAG
-    Data
-      SQL
-      Vector Search
-      Embeddings
-      Knowledge Graphs
-    Backend
-      Python
-      FastAPI
-      PostgreSQL
-      APIs
-    Systems
-      Architecture
-      Automation
-      Infrastructure
-    Industry
-      Manufacturing
-      Digital Twins
-      Industrial Intelligence
-```
-
----
-
-# `07 // GITHUB TELEMETRY`
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=siddhivinayak-ai&show_icons=true&hide_border=true&theme=transparent&bg_color=00000000&title_color=00ff9c&text_color=8b949e&icon_color=00ff9c" height="175">
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=siddhivinayak-ai&layout=compact&hide_border=true&theme=transparent&bg_color=00000000&title_color=00ff9c&text_color=8b949e" height="175">
-
-</div>
-
----
-
-# `08 // ACTIVITY`
-
-<div align="center">
-
-<img src="https://streak-stats.demolab.com?user=siddhivinayak-ai&theme=dark&hide_border=true&background=00000000&ring=00ff9c&fire=00ff9c&currStreakLabel=00ff9c&sideLabels=00ff9c" width="700">
-
-</div>
-
----
-
-# `09 // CONTRIBUTION MATRIX`
-
-<div align="center">
-
-<img src="https://raw.githubusercontent.com/siddhivinayak-ai/siddhivinayak-ai/output/github-contribution-grid-snake-dark.svg" width="900">
-
-</div>
-
----
-
-# `10 // CURRENTLY.EXPLORING`
-
-```mermaid
-%%{init: {
-  "theme": "dark",
-  "themeVariables": {
-    "primaryColor": "#050505",
-    "primaryTextColor": "#00ff9c",
-    "primaryBorderColor": "#00ff9c",
-    "lineColor": "#00ff9c",
-    "fontFamily": "JetBrains Mono"
-  }
-}}%%
-
-flowchart LR
-
-    A["AGENTIC AI"] --> B["LLM SYSTEMS"]
-    B --> C["ADVANCED RAG"]
-    C --> D["KNOWLEDGE GRAPHS"]
-    D --> E["AI INFRASTRUCTURE"]
-    E --> F["SYSTEM DESIGN"]
-    F --> G["DIGITAL TWINS"]
-
-    style A fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style B fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style C fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style D fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style E fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style F fill:#050505,stroke:#00ff9c,color:#00ff9c
-    style G fill:#050505,stroke:#00ff9c,color:#00ff9c
-```
-
----
-
-# `11 // PRINCIPLES`
-
-```text
-01  BUILD > TALK
-
-02  PROBLEM > TECHNOLOGY
-
-03  SIMPLE > COMPLEX
-
-04  SYSTEM > DEMO
-
-05  INTELLIGENCE > AUTOMATION
-
-06  SHIP → OBSERVE → IMPROVE → REPEAT
-```
-
----
-
-# `12 // TERMINAL`
-
-```text
-┌──────────────────────────────────────────────────────────────┐
-│                                                              │
-│  siddhivinayak@github:~$ ./build                             │
-│                                                              │
-│  [✓] loading intelligence layer                              │
-│  [✓] initializing models                                     │
-│  [✓] connecting data layer                                   │
-│  [✓] initializing agents                                     │ 
-│  [✓] compiling ideas                                         │ 
-│  [✓] deploying experiments                                   │ 
-│                                                              │ 
-│  STATUS: OPERATIONAL                                         │
-│                                                              │
-│  siddhivinayak@github:~$ _                                   │
-│                                                              │
-└──────────────────────────────────────────────────────────────┘
-```
-
-<div align="center">
-
-### `// BUILD. BREAK. LEARN. SHIP.`
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:000000,50:001a12,100:00ff9c&height=100&section=footer">
-
-</div>
+<sub>Pune, India</sub>
