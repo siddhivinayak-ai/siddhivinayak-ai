@@ -1,30 +1,37 @@
-# Siddhivinayak Waghmode
+# Hey, I'm Siddhivinayak 👋
 
-**I build AI systems for manufacturing and industrial operations.**
+**I build AI for factories, and for the paperwork around them.**
+
+Manufacturing engineer by degree (BTech, Manufacturing Science & Technology, COEP Technological University, Pune). Builder by habit. I like agents, retrieval, digital twins, and anything that turns a 600-page PDF into a straight answer.
+
+🚀 **Open to:** building with early-stage startups as a founding engineer or co-founder (industrial AI, B2B automation), and AI/ML engineering roles (agentic systems, RAG, applied ML).
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Siddhivinayak_Waghmode-0A66C2?style=flat-square&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/siddhivinayak-waghmode-641b6b241/)
 [![Email](https://img.shields.io/badge/Email-siddhivinayakwaghmode2004%40gmail.com-EA4335?style=flat-square&logo=gmail&logoColor=white)](mailto:siddhivinayakwaghmode2004@gmail.com)
 
-**Open to:** co-founding in industrial AI or B2B automation, and AI/ML engineering roles (agentic systems, RAG, applied ML).
+---
+
+## How I got here
+
+I started on the shop floor, learning about tool wear, OEE and how production lines behave, and that machines tend to break down shortly before a shift ends. Then I noticed that most of a factory's problems are buried in documents: tenders, compliance rules, cargo regulations and manuals. Everyone agrees they matter, and nobody wants to read them.
+
+So I build AI that reads them for you. Here's what has come out of that so far.
 
 ---
 
-## The story so far
+## Things I've built
 
-**Chapter 1: The shop floor.**
-I trained as a manufacturing engineer (BTech, Manufacturing Science & Technology, COEP Technological University, Pune). I learned about tool wear, OEE and how production lines behave, and that machines tend to break down shortly before a shift ends.
+### 1 · Self-Maintaining APIs · *private repo, demo on request*
+*Vendors retire API versions, and this agent makes sure your integration doesn't break with them.*
 
-**Chapter 2: The paperwork.**
-Then I noticed that most of a factory's problems are buried in documents: tenders, compliance rules, cargo regulations, procurement files and 600-page manuals. Everyone agrees these documents matter, and nobody wants to read them.
+An agent that stops third-party API integrations from breaking when vendors retire versions.
+- Monitors vendor deprecation notices and scans the codebase for affected calls
+- Prepares a fix for each call and runs the tests in an offline Docker sandbox before and after the patch
+- Opens a pull request for human approval and never merges on its own
 
-**Chapter 3: The agents.**
-So now I build AI that reads them: agentic systems, retrieval and digital twins that understand the shop floor *and* the paperwork around it. The episodes below are what came out of that.
+Demo targets: [support-desk-ai](https://github.com/siddhivinayak-ai/support-desk-ai) · [stripe-legacy-checkout](https://github.com/siddhivinayak-ai/stripe-legacy-checkout)
 
----
-
-## Selected work
-
-### Episode 1 · [Manufacturing Copilot](https://github.com/siddhivinayak-ai/mfg-copilotv0.1)
+### 2 · [Manufacturing Copilot](https://github.com/siddhivinayak-ai/mfg-copilotv0.1)
 *For when a machine is vibrating, the manual is 600 pages long and the shift ends in 20 minutes.*
 
 [![Manufacturing Copilot tracing the root cause of a vibration spike, with live telemetry and cited sources](assets/mfg-copilot.jpg)](https://github.com/siddhivinayak-ai/mfg-copilotv0.1)
@@ -37,41 +44,7 @@ A reasoning engine for factories. It answers maintenance, quality, energy, safet
 
 `Python` `GraphRAG` `Multi-agent orchestration`
 
-### Episode 2 · [SV Digital Twin Labs](https://github.com/siddhivinayak-ai/SV-DigitalTwinLabs) · *in active development*
-*Break the factory in simulation so nobody has to break it on Monday morning.*
-
-[![SV Digital Twin Labs: a 3D production line with live machine state, KPIs and sensor trends](assets/digital-twin.jpg)](https://github.com/siddhivinayak-ai/SV-DigitalTwinLabs)
-
-An open-source digital twin of a manufacturing production line.
-- A C# simulation server streams live machine state over WebSocket to a web console and a Unity 3D client
-- V1 covers one line: 11 assets, synthetic sensors, fault injection, OEE analytics and what-if scenarios
-- One shared wire contract defines the data format for the server and every client
-
-`C#` `.NET 10` `TypeScript` `Three.js` `Unity 6`
-
-### Episode 3 · [PLACI: Cargo Risk Intelligence](https://github.com/siddhivinayak-ai/placi-version-0.2)
-*It reads the cargo paperwork before the cargo gets on the plane.*
-
-Screens air cargo before loading, following ICAO Annex 17, the WCO SAFE Framework and PLACI (Pre-Loading Advance Cargo Information) rules.
-- 6 agents in a LangGraph workflow: sanctions matching, cargo-description analysis, anomaly detection (Isolation Forest), historical pattern search, risk aggregation, and an explanation a regulator can read
-- Each shipment gets a risk score and a decision (clear, request information, extra screening, or do not load), with the evidence behind it
-- Tested against 10,000 synthetic historical shipments
-
-`Python` `FastAPI` `LangGraph` `Claude` `MongoDB` `React`
-
-### Episode 4 · [BidOps: from RFP to proposal](https://github.com/siddhivinayak-ai/BidOpsv0.1)
-*Five agents work on every bid, and one of them is very hard to please.*
-
-[![BidOps agent cores: triage, solutions architect and commercial pricing agents](assets/bidops.jpg)](https://github.com/siddhivinayak-ai/BidOpsv0.1)
-
-Turns a tender PDF into a technical proposal (.docx) and a pricing model (.xlsx).
-- Five agents: triage, solution design, commercial pricing, writer and auditor
-- The auditor sends drafts back to the writer until the proposal reaches an 85% compliance score against the RFP's requirements
-- Searches past proposals using local embeddings, so company data stays on the machine
-
-`Python` `LangGraph` `ChromaDB` `Gemini`
-
-### Episode 5 · [hiresprint: Agentic Hiring Intelligence](https://github.com/siddhivinayak-ai/hiresprint)
+### 3 · [hiresprint: Agentic Hiring Intelligence](https://github.com/siddhivinayak-ai/hiresprint)
 *Using AI in an interview isn't cheating anymore. Using it badly is.*
 
 [![hiresprint session replay: event timeline, code at each step and an agentic score](assets/hiresprint.jpg)](https://github.com/siddhivinayak-ai/hiresprint)
@@ -84,40 +57,75 @@ Tests whether engineers can build *with* AI, not just code without it.
 
 `React` `Node.js` `PostgreSQL` `LangChain` `Gemini`
 
-### Episode 6 · Self-Maintaining APIs · *private repo, demo on request*
-*Vendors retire API versions, and this agent makes sure your integration doesn't break with them.*
+### 4 · [Siddhivinayak: the 3D engineer](https://github.com/siddhivinayak-ai/siddhivinayak)
+*Yes, I named it after myself. It knows more torque values than I do.*
 
-An agent that stops third-party API integrations from breaking when vendors retire versions.
-- Monitors vendor deprecation notices and scans the codebase for affected calls
-- Prepares a fix for each call and runs the tests in an offline Docker sandbox before and after the patch
-- Opens a pull request for human approval and never merges on its own
+[![Siddhivinayak: a talking 3D engineering assistant answering a question about Taylor's tool life equation with citations](assets/siddhivinayak.jpg)](https://github.com/siddhivinayak-ai/siddhivinayak)
+<sub>It cites the page number, so I can't argue with it.</sub>
 
-Demo targets: [support-desk-ai](https://github.com/siddhivinayak-ai/support-desk-ai) · [stripe-legacy-checkout](https://github.com/siddhivinayak-ai/stripe-legacy-checkout)
+A talking 3D engineering assistant, backed by a brain that learns from your notes.
+- Hybrid search (dense vectors plus BM25) over your own PDFs, with page citations that open the original page
+- Python does the maths, not the LLM: ISO thread geometry, VDI 2230 tightening torque, AWS electrode decoding, weld heat input
+- Photo teardown: snap any object and it estimates what it really costs to make, then shows the markup
+
+`React Three Fiber` `Python` `LangGraph` `RAG`
+
+### 5 · [SV Digital Twin Labs](https://github.com/siddhivinayak-ai/SV-DigitalTwinLabs) · *in active development*
+*Break the factory in simulation so nobody has to break it on Monday morning.*
+
+[![SV Digital Twin Labs: a 3D production line with live machine state, KPIs and sensor trends](assets/digital-twin.jpg)](https://github.com/siddhivinayak-ai/SV-DigitalTwinLabs)
+
+An open-source digital twin of a manufacturing production line.
+- A C# simulation server streams live machine state over WebSocket to a web console and a Unity 3D client
+- V1 covers one line: 11 assets, synthetic sensors, fault injection, OEE analytics and what-if scenarios
+- One shared wire contract defines the data format for the server and every client
+
+`C#` `.NET 10` `TypeScript` `Three.js` `Unity 6`
+
+### 6 · [PLACI: Cargo Risk Intelligence](https://github.com/siddhivinayak-ai/placi-version-0.2)
+*It reads the cargo paperwork before the cargo gets on the plane.*
+
+[![PLACI dashboard: AI risk engine status, shipments scanned and threat-identification layers](assets/placi-dashboard.jpg)](https://github.com/siddhivinayak-ai/placi-version-0.2)
+
+Screens air cargo before loading, following ICAO Annex 17, the WCO SAFE Framework and PLACI (Pre-Loading Advance Cargo Information) rules.
+- 6 agents in a LangGraph workflow: sanctions matching, cargo-description analysis, anomaly detection (Isolation Forest), historical pattern search, risk aggregation, and an explanation a regulator can read
+- Each shipment gets a risk score and a decision (clear, request information, extra screening, or do not load), with the evidence behind it
+- Tested against 10,000 synthetic historical shipments
+
+`Python` `FastAPI` `LangGraph` `Claude` `MongoDB` `React`
+
+<p align="center">
+  <img src="assets/building-days.jpg" width="80%" alt="Siddhivinayak laughing at a desk during the PLACI build, with teammates">
+  <br>
+  <sub><b>Building days.</b> Me (left), laughing. The demo was working. For the moment.</sub>
+</p>
+
+### 7 · [BidOps: from RFP to proposal](https://github.com/siddhivinayak-ai/BidOpsv0.1)
+*Five agents work on every bid, and one of them is very hard to please.*
+
+[![BidOps agent cores: triage, solutions architect and commercial pricing agents](assets/bidops.jpg)](https://github.com/siddhivinayak-ai/BidOpsv0.1)
+
+Turns a tender PDF into a technical proposal (.docx) and a pricing model (.xlsx).
+- Five agents: triage, solution design, commercial pricing, writer and auditor
+- The auditor sends drafts back to the writer until the proposal reaches an 85% compliance score against the RFP's requirements
+- Searches past proposals using local embeddings, so company data stays on the machine
+
+`Python` `LangGraph` `ChromaDB` `Gemini`
+
+### 8 · [EcoTwin](https://github.com/siddhivinayak-ai/EcoTwin)
+*A house's energy system, with more dashboards than the house strictly needs.*
+
+[![EcoTwin operations center: live telemetry, power distribution and subsystem health](assets/ecotwin.jpg)](https://github.com/siddhivinayak-ai/EcoTwin)
+
+An energy digital twin (solar, battery, grid, HVAC) with a live 3D view.
+- Streams live telemetry over WebSocket and MQTT into an operations dashboard
+- Tracks energy flow, battery state of charge and thermal status, and flags subsystems that cross their limits
 
 ---
 
 ## Side quests
 
-<table>
-<tr>
-<td width="33%" valign="top">
-<a href="https://github.com/siddhivinayak-ai/siddhivinayak"><img src="assets/siddhivinayak.jpg" alt="Siddhivinayak: a 3D engineering assistant with a cited answer about Taylor's tool life equation"></a>
-<b><a href="https://github.com/siddhivinayak-ai/siddhivinayak">Siddhivinayak</a></b><br>
-A talking 3D engineering assistant. Hybrid search over your notes with page citations, plus ISO fastener and welding calculators. It cites the page, so I can't argue with it.
-</td>
-<td width="33%" valign="top">
-<a href="https://github.com/siddhivinayak-ai/sih-DevNexus2026"><img src="assets/smartscan.jpg" alt="SmartScan: simulation results and RF scan log"></a>
-<b><a href="https://github.com/siddhivinayak-ai/sih-DevNexus2026">SmartScan</a></b> · Smart India Hackathon 2026<br>
-A reinforcement-learning (PPO) scheduler that decides which RF band a receiver scans next. Evaluated against three baselines on unseen test scenarios.
-</td>
-<td width="33%" valign="top">
-<a href="https://github.com/siddhivinayak-ai/EcoTwin"><img src="assets/ecotwin.jpg" alt="EcoTwin operations center: live telemetry and subsystem health"></a>
-<b><a href="https://github.com/siddhivinayak-ai/EcoTwin">EcoTwin</a></b><br>
-An energy digital twin (solar, battery, grid, HVAC) with a live 3D view.
-</td>
-</tr>
-</table>
-
+- **[SmartScan](https://github.com/siddhivinayak-ai/sih-DevNexus2026)** (Smart India Hackathon 2026): a reinforcement-learning (PPO) scheduler that decides which RF band a receiver scans next. Evaluated against three baselines on unseen test scenarios.
 - **[BhashaBill](https://github.com/siddhivinayak-ai/BhashaBill)**: turns voice notes and bills in Hindi, Tamil or Gujarati into standard government Bills of Materials, for small businesses (MSMEs) bidding on tenders.
 - **[mill](https://github.com/siddhivinayak-ai/mill)**: tool-wear prediction on the UC Berkeley milling dataset. An LSTM beat Random Forest and XGBoost.
 - **[code-writer](https://github.com/siddhivinayak-ai/code-writer-v0.1)**: a terminal coding agent built to run within Gemini's free-tier limits.
@@ -125,7 +133,7 @@ An energy digital twin (solar, battery, grid, HVAC) with a live 3D view.
 
 ---
 
-## Stack
+## My toolbox
 
 | | |
 |---|---|
@@ -134,14 +142,16 @@ An energy digital twin (solar, battery, grid, HVAC) with a live 3D view.
 | **Backend** | Python, FastAPI, Flask, Node.js, C# / .NET, MongoDB, PostgreSQL, SQLite, WebSockets, MQTT |
 | **Frontend & 3D** | React, TypeScript, Vite, Three.js / React Three Fiber, Unity, Streamlit |
 
-## How I work
+## How I build
 
 - **Problem first.** I start from the domain problem, then choose the model.
 - **Ship v0.1, then iterate.** PLACI went through three versions in public. You can tell from the repo names: most of them end in a version number.
 - **Local and low-cost by default.** Local embeddings, swappable LLM providers, and designs that fit within free-tier limits. Free tiers have taught me more about rate limits than any course.
 
-## Next chapter
+## Let's build something
 
-Still being written. If you're building something for factories, supply chains or the paperwork between them, I'd like to hear about it. [LinkedIn](https://www.linkedin.com/in/siddhivinayak-waghmode-641b6b241/) or [email](mailto:siddhivinayakwaghmode2004@gmail.com) works.
+Building a startup in industrial AI, B2B automation or anything with too much paperwork? I'd love to hear about it. I'm happy to talk ideas, build a v0.1 with you, or join as a founding engineer.
+
+[LinkedIn](https://www.linkedin.com/in/siddhivinayak-waghmode-641b6b241/) · [Email](mailto:siddhivinayakwaghmode2004@gmail.com)
 
 <sub>Pune, India</sub>
