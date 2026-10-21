@@ -85,7 +85,12 @@ An open-source digital twin of a manufacturing production line.
 ### 6 · [PLACI: Cargo Risk Intelligence](https://github.com/siddhivinayak-ai/placi-version-0.2)
 *It reads the cargo paperwork before the cargo gets on the plane.*
 
-[![PLACI dashboard: AI risk engine status, shipments scanned and threat-identification layers](assets/placi-dashboard.jpg)](https://github.com/siddhivinayak-ai/placi-version-0.2)
+<p>
+  <a href="https://github.com/siddhivinayak-ai/placi-version-0.2"><img src="assets/placi-dashboard.jpg" width="57%" alt="PLACI dashboard: AI risk engine status, shipments scanned and threat-identification layers"></a>
+  <img src="assets/building-days.jpg" width="41%" alt="Siddhivinayak laughing at a desk during the PLACI build, with teammates">
+  <br>
+  <sub>Left: the dashboard. Right: <b>building days.</b> That's me on the left, laughing. The demo was working. For the moment.</sub>
+</p>
 
 Screens air cargo before loading, following ICAO Annex 17, the WCO SAFE Framework and PLACI (Pre-Loading Advance Cargo Information) rules.
 - 6 agents in a LangGraph workflow: sanctions matching, cargo-description analysis, anomaly detection (Isolation Forest), historical pattern search, risk aggregation, and an explanation a regulator can read
@@ -93,12 +98,6 @@ Screens air cargo before loading, following ICAO Annex 17, the WCO SAFE Framewor
 - Tested against 10,000 synthetic historical shipments
 
 `Python` `FastAPI` `LangGraph` `Claude` `MongoDB` `React`
-
-<p align="center">
-  <img src="assets/building-days.jpg" width="80%" alt="Siddhivinayak laughing at a desk during the PLACI build, with teammates">
-  <br>
-  <sub><b>Building days.</b> Me (left), laughing. The demo was working. For the moment.</sub>
-</p>
 
 ### 7 · [BidOps: from RFP to proposal](https://github.com/siddhivinayak-ai/BidOpsv0.1)
 *Five agents work on every bid, and one of them is very hard to please.*
@@ -112,20 +111,23 @@ Turns a tender PDF into a technical proposal (.docx) and a pricing model (.xlsx)
 
 `Python` `LangGraph` `ChromaDB` `Gemini`
 
-### 8 · [EcoTwin](https://github.com/siddhivinayak-ai/EcoTwin)
-*A house's energy system, with more dashboards than the house strictly needs.*
+### 8 · [SmartScan: RF scanning for electronic warfare](https://github.com/siddhivinayak-ai/sih-DevNexus2026) · *Smart India Hackathon 2026*
+*A radio receiver can only listen to one band at a time. So which band should it check next?*
 
-[![EcoTwin operations center: live telemetry, power distribution and subsystem health](assets/ecotwin.jpg)](https://github.com/siddhivinayak-ai/EcoTwin)
+[![SmartScan simulation results: interception rate, detections, false alarms and the RF scan log](assets/smartscan.jpg)](https://github.com/siddhivinayak-ai/sih-DevNexus2026)
+<sub>Grey: where the emitters actually were. Red: where the agent looked.</sub>
 
-An energy digital twin (solar, battery, grid, HVAC) with a live 3D view.
-- Streams live telemetry over WebSocket and MQTT into an operations dashboard
-- Tracks energy flow, battery state of charge and thermal status, and flags subsystems that cross their limits
+Built for SIH 2026 problem statement 26055: a smart scan strategy for electronic warfare when there is no reliable prior intelligence about the emitters.
+- A reinforcement-learning (PPO) scheduler decides which RF band the receiver scans next, based only on what it has observed so far
+- A Gymnasium RF environment with hidden ground truth and a limited-bandwidth receiver, plus optional emitter data from the Alan Turing Institute's Turing Synthetic Radar Dataset
+- Evaluated against three baselines (open-loop sweep, random and a POMDP heuristic) on unseen test scenarios
+
+`Python` `Gymnasium` `Stable-Baselines3` `PyTorch` `Streamlit`
 
 ---
 
 ## Side quests
 
-- **[SmartScan](https://github.com/siddhivinayak-ai/sih-DevNexus2026)** (Smart India Hackathon 2026): a reinforcement-learning (PPO) scheduler that decides which RF band a receiver scans next. Evaluated against three baselines on unseen test scenarios.
 - **[BhashaBill](https://github.com/siddhivinayak-ai/BhashaBill)**: turns voice notes and bills in Hindi, Tamil or Gujarati into standard government Bills of Materials, for small businesses (MSMEs) bidding on tenders.
 - **[mill](https://github.com/siddhivinayak-ai/mill)**: tool-wear prediction on the UC Berkeley milling dataset. An LSTM beat Random Forest and XGBoost.
 - **[code-writer](https://github.com/siddhivinayak-ai/code-writer-v0.1)**: a terminal coding agent built to run within Gemini's free-tier limits.
