@@ -27,6 +27,9 @@ So now I build AI that reads them: agentic systems, retrieval and digital twins 
 ### Episode 1 · [Manufacturing Copilot](https://github.com/siddhivinayak-ai/mfg-copilotv0.1)
 *For when a machine is vibrating, the manual is 600 pages long and the shift ends in 20 minutes.*
 
+[![Manufacturing Copilot tracing the root cause of a vibration spike, with live telemetry and cited sources](assets/mfg-copilot.jpg)](https://github.com/siddhivinayak-ai/mfg-copilotv0.1)
+<sub>Asked why a robot axis is vibrating, it points to a worn bearing and shows the sensor readings behind the answer.</sub>
+
 A reasoning engine for factories. It answers maintenance, quality, energy, safety and supply-chain questions using sensor datasets, OEM manuals and regulations.
 - GraphRAG over a 7-domain knowledge graph (~10,000 nodes, ~21,000 edges) built from NASA C-MAPSS, CWRU bearings, SECOM and others, plus ABB, KUKA, Siemens and UR robot manuals
 - An orchestrator sends each question to one of 6 specialist agents
