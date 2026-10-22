@@ -102,8 +102,12 @@ Screens air cargo before loading, following ICAO Annex 17, the WCO SAFE Framewor
 ### 7 · [BidOps: from RFP to proposal](https://github.com/siddhivinayak-ai/BidOpsv0.1)
 *Five agents work on every bid, and one of them is very hard to please.*
 
-[![BidOps compliance audit: the proposal passes 85% on its third revision, scoring 61.7, then 80.0, then 91.7](assets/bidops-audit.jpg)](https://github.com/siddhivinayak-ai/BidOpsv0.1)
-<sub>Told you it was hard to please. Three revisions before the auditor let it through.</sub>
+<p>
+  <a href="https://github.com/siddhivinayak-ai/BidOpsv0.1"><img src="assets/bidops-run.jpg" width="49%" alt="BidOps live run: agent graph with the writer and auditor in a revision loop, plus the event log"></a>
+  <a href="https://github.com/siddhivinayak-ai/BidOpsv0.1"><img src="assets/bidops-scores.jpg" width="49%" alt="BidOps compliance audit: the proposal passes 85% on its third revision, scoring 61.7, then 80.0, then 91.7"></a>
+  <br>
+  <sub>Left: the agents at work, with the writer and auditor stuck in a revision loop. Right: told you it was hard to please. Three revisions before the auditor let it through.</sub>
+</p>
 
 Turns a tender PDF into a technical proposal (.docx) and a pricing model (.xlsx).
 - Five agents: triage, solution design, commercial pricing, writer and auditor
